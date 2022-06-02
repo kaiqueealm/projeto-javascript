@@ -10,7 +10,7 @@ function verificar(){
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value) //number pra troca o teclado de letra por numero
         var genero = ''
-        var img = document.createElement('img')
+        var img = document.createElement('img') // para colcar uma imagen
         img.setAttribute('id', 'foto')
         if (fsex[0].checked) {
             genero = 'Homem'
